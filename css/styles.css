@@ -193,13 +193,17 @@ footer a {
       display: grid;
       grid-column: 1 / span 2;
     }
+
+    form {
+
+    }
     
 }
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px), print {
     
-    /* Desktop Viewport: Style rules for nav area */
+    /* Desktop Viewport: Show desktop class, hide mobile-tablet class*/
     nav li {
         font-size: 1.5em;
     }
@@ -223,12 +227,52 @@ footer a {
       grid-column: 1 / span 3;
       font-size: 2em;
     }
-    
+
+    /* Style rules for table */
+    table {
+      border: 1px solid #2a1f14;
+      border-collapse: collapse;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 1%;
+    }
+
+    th {
+      border: 1px solid #2a1f14;
+      padding: 1%;
+       background-color: #2a1f14;
+      color: white;
+      font-size: 1.15em;
+    }
+
+    td {
+      border: 1px solid #2a1f14;
+      padding: 1%;
+    }
+
+    tr:nth-of-type(odd) {
+      background-color: #deccba;
+    }
+
     /* Desktop Viewport: Style rules for main content */
     #info ul {
         margin-left: 5%;
     }
     
+    .mobile-tablet {
+      display: none;
+    }
+
+    form {
+
+    }
 }
 
 /* Media Query for Large Desktop Viewports */
