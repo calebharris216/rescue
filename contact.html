@@ -1,82 +1,77 @@
 <!DOCTYPE html>
-<!-- 
-	Student Name: Caleb Harris
-	File Name: contact.html
-	Today's Date: 06/14/2021
- -->
+<!--
+Student Name: Caleb Harris
+File Name: contact.html
+Date: 06/21/2021
+-->
 <html lang="en">
 <head>
-	<title>Wild Rescues: Contact</title>
-	<meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Emblema+One|Lora&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">   
-<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+<title>Caleb's Blog</title>
+<meta charset ="utf-8">
+<link rel="stylesheet" href="css/styles.css">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
 </head>
-<body>
-    
-    <div id="wrapper">
 
-      <!-- Mobile Nav -->
-<nav class="mobile-nav">
-    <div id="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="partnership.html">Partnership</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="contact.html">Contact Us</a>
-    </div>
-        <a class="nav-icon" onclick="menu()">
-            <div id="icon">&#9776;</div>
-        </a>
+<body>
+
+<header class="top">
+<a href="index.html">
+<figure><img src="images/picofmyself.jpg" alt="A crappy drawing of someone you don't know."><figcaption>A website.</figcaption></figure>
+<h1>Caleb Harris</h1>
+<h2>Personal Website</h2>
+</a>
+</header>
+
+<nav class="top">
+<ul><li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Me</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html">Contact</a></li></ul>
 </nav>
 
-        <header>
-            <div class="tab-desk">
-              <a href="index.html"><img src="images/baby-hawk.jpg" alt="rescued baby hawk"></a>
-            </div>
-            <div class="mobile">
-                <h1>&#128062; Wild Rescues</h1>
-                <h3>Rescue. Rehabilitate. Release.</h3>
-            </div>
-        </header>
+<!-- Main Content -->
+<main>
+<div id="contactinfo">
+  <p>Here's my email, despite already being written on the bottom of the screen: <a href="mailto:charris21@vikings.sjrstate.edu">charris21@vikings.sjrstate.edu</a></p>
+</div>
 
-        <nav class="tab-desk">
-            <ul>
-                <li><a href="index.html">Home</a></li>  
-                <li><a href="about.html">About Us</a></li> 
-                <li><a href="partnership.html">Partnership</a></li> 
-                <li><a href="gallery.html">Gallery</a></li> 
-                <li><a href="faqs.html">FAQs</a></li> 
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<div id="newsletterform">
+<p>Subscribe to my nonexistent newsletter:</p>
 
-        <!-- Use the main area to add the main content to the webpage -->
-        <main>
+<form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="uemail">Email:</label>
+  <input type="text" id="uemail" name="uemail"><br>
+  <p>Select Newsletter(s):</p>
+  <input type="checkbox" id="newsletter1" name="newsletter1" value="Weekly">
+  <label for="newsletter1"> Weekly</label><br>
+  <input type="checkbox" id="newsletter2" name="newsletter2" value="Yearly">
+  <label for="newsletter2"> Yearly</label><br>
+  <input type="checkbox" id="newsletter3" name="newsletter3" value="Centennial">
+  <label for="newsletter3"> Centennial</label><br>
+  <input type="submit" value="Submit">
 
-            <div id="contact">
 
-                <h2>You can reach us at:</h2>
-                <p class="tel-link round mobile"><a href="tel:8145558989">(814) 555-8989</a></p>
-                <p class="tab-desk">(814) 555-8989</p>
-                <p>Email: <a href="mailto:contact@wildrescues.net" class="link">contact@wildrescues.net</a></p>
-                <p>Address: <a href="https://goo.gl/maps/BTJzjc2tALd4RDWA8" target="_blank" class="link">8989 Rescue Drive, Ocala, FL 34471</a></p>
 
-            </div>
 
-        </main>
 
-        <footer>
-            <p>&copy; Copyright 2021. All Rights Reserved.</p>
-            <p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
-        </footer>
-        
-    </div>
-<script src="scripts/script.js"></script>
+</form>
+</div>
+
+</main>
+  <iframe class="minimap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d442245.9078600805!2d-81.68971573409127!3d30.006831064705032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e42867a5c80e4f%3A0x36cf4b921930af51!2sSt.%20Johns%20River%20State%20College!5e0!3m2!1sen!2sus!4v1624251260089!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <iframe class="medmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d885333.6663419252!2d-81.358961!3d29.912266999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36cf4b921930af51!2sSt.%20Johns%20River%20State%20College!5e0!3m2!1sen!2sus!4v1624560585596!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <iframe class="megamap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d885333.6663419252!2d-81.358961!3d29.912266999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36cf4b921930af51!2sSt.%20Johns%20River%20State%20College!5e0!3m2!1sen!2sus!4v1624560585596!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<footer>
+<a href="mailto:charris21@vikings.sjrstate.edu">charris21@vikings.sjrstate.edu</a>
+</footer>
+
 </body>
 </html>
